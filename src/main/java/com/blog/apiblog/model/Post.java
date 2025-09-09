@@ -24,5 +24,5 @@ public class Post {
   private LocalDateTime creationDate;
 
   @ManyToOne
-  private User user;
+  private User user; // author?
 }
